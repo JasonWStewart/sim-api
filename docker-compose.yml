@@ -1,0 +1,9 @@
+version: "3.9"
+networks:
+  npm_proxy:
+    external: true
+services:
+  sim-api:
+    build: .
+    ports:
+      - 8675:8080
