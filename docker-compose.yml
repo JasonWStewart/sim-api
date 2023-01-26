@@ -4,6 +4,7 @@ networks:
     external: true
 services:
   sim-api:
+    container_name: sim-api
     build: .
     ports:
       - 8675:8080
