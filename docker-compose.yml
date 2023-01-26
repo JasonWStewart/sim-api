@@ -7,3 +7,5 @@ services:
     build: .
     ports:
       - 8675:8080
+    networks:
+      - npm_proxy
