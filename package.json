@@ -1,0 +1,15 @@
+{
+  "name": "nl-stats",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./download.sh && node simulate.js -i 1000000 && node server.js -i 1000000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
